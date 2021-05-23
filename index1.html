@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="styles1.css">
+
+    <title>FunFurniture</title>
+</head>
+<body>
+    <div class="home">
+        <a href="index.html">GO TO HOME PAGE</a>
+    </div>
+    <div class="hero">
+        <div class="row">
+            <div class="col">
+                <div class="slider">
+                    <div class="product">
+                        <img src="images/products13.webp" alt="" onclick="clickme(this)">
+                        <img src="images/products14.webp" alt="" onclick="clickme(this)">
+                        <img src="images/products15.webp" alt="" onclick="clickme(this)">
+                        <img src="images/products16.webp" alt="" onclick="clickme(this)">
+                    </div>
+                    <div class="preview">
+                        <img src="images/products13.webp" id="imagebox" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="content">
+                    <p class="brand">Brand : Asisco</p>
+                    <h2>Furniture Patio</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price">Brand: Asisco</p>
+                    <p>
+                        Color : <select name="size">
+                            <option value="select size">Select Color</option>
+                            <option value="select size">Beige</option>
+                            <option value="select size">Grey</option>
+                            <option value="select size">Red</option>
+                        </select>
+                    </p>
+                    <p>Quantity: <input type="text" value="1"></p>
+                    <button type="button">
+                        <i class="fa fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+
+            </div>
+        </div>
+          <div class="related">
+              <h2>related items</h2>
+              <div class="row">
+                  <div class="columns">
+                      <div class="items">
+                          <img src="images/products17.webp" alt="">
+                          <div class="details">
+                              <p>New Brand</p>
+                              <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <p>USD $1000</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="columns">
+                    <div class="items">
+                        <img src="images/products21.webp" alt="">
+                        <div class="details">
+                            <p>New Brand</p>
+                            <div class="rating">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                              <i class="fa fa-star-half-o"></i>
+                          </div>
+                          <p>USD $1000</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="columns">
+                    <div class="items">
+                        <img src="images/products18.webp" alt="">
+                        <div class="details">
+                            <p>New Brand</p>
+                            <div class="rating">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                              <i class="fa fa-star-half-o"></i>
+                          </div>
+                          <p>USD $1000</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="columns">
+                    <div class="items">
+                        <img src="images/products19.webp" alt="">
+                        <div class="details">
+                            <p>New Brand</p>
+                            <div class="rating">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                              <i class="fa fa-star-half-o"></i>
+                          </div>
+                          <p>USD $1000</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <script>
+        function clickme(smallImg) {
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src=smallImg.src;
+        }
+    </script>
+
+
+</body>
+</html>
